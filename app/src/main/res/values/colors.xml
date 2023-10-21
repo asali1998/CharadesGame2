@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBG">#bcfffd</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorButton">#1c2d60</color>
+    <color name="correct">#328400</color>
+    <color name="wrong">#840000</color>
+    <color name="black">#000000</color>
+    <color name="bright_green">#4fff3b</color>
+    <color name="red_orange">#c8f83d28</color>
+    <color name="orange_100">#64ff8514</color>
+    <color name="orange_150">#95ff8514</color>
+    <color name="red_orange_100">#64f83d28</color>
+    <color name="bright_green_100">#644fff3b</color>
+    <color name="red_orange_150">#95f83d28</color>
+    <color name="bright_green_150">#954fff3b</color>
+    <color name="red_200">#c8f82f28</color>
+    <color name="green_yellow_150">#c8a8fd30</color>
+    <color name="blue_200">#c9209eff</color>
+    <color name="correct_100">#64328400</color>
+    <color name="wrong_100">#64840000</color>
+    <color name="black_overlay_70">#46000000</color>
+    <color name="purplr_150">#968820ff</color>
+    <color name="purplr_100">#668820ff</color>
+    <color name="azue_100">#642cdfff</color>
+    <color name="light_yello_100">#64fff235</color>
+    <color name="dark_yellow_150">#96cea006</color>
+    <color name="orange_170">#aaff6309</color>
+    <color name="light_yellow_150">#96fff235</color>
+    <color name="dark_blue_150">#962c80ff</color>
+    <color name="dark_blue_200">#c81b6fef</color>
+    <color name="red_orange_200">#c9f83d28</color>
+</resources>

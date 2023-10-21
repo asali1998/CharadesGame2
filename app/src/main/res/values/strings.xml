@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CharadesGame</string>
+    <string name="welcome_to_charades">Welcome to Charades</string>
+
+    <string name="title_activity_word">WordActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="deck_name">Deck name</string>
+    <string name="add_card">Add Card</string>
+    <string name="submit_deck">Submit Deck</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_custom_deck">Create Custom Deck</string>
+    <string name="standard_game">Standard Game</string>
+    <string name="custom_game">Custom Game</string>
+    <string name="options">Options</string>
+    <string name="classic_charades">Classic Charades</string>
+    <string name="famous_movies">Famous Movies</string>
+    <string name="pop_hits">Pop Hits</string>
+    <string name="animals">Animals</string>
+    <string name="score">Score:</string>
+    <string name="back">Back</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="word">Word</string>
+    <string name="_00_30">00:30</string>
+    <string name="_1_10">1/10</string>
+    <string name="speech_recognition">Speech Recognition</string>
+    <string name="recognizer_state">recognizer state</string>
+    <string name="add">Add</string>
+    <string name="title">Title%d</string>
+    <string name="type">type</string>
+    <string name="title2">title</string>
+    <string name="custom">custom</string>
+    <string name="deckNum">deckNum</string>
+    <string name="what_you_say">We want to track what you say - FBI</string>
+    <string name="audio_granted">RECORD_AUDIO perm granted</string>
+    <string name="audio_not_granted">RECORD_AUDIO perm NOT granted</string>
+    <string name="score_column">Score:</string>
+    <string name="of">/</string>
+    <string name="double_zero_time">00:</string>
+    <string name="double_zero_column_zero">00:0</string>
+    <string name="for_audio_permission">I can hear you say the right word!</string>
+
+</resources>

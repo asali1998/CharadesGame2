@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/polygon_green"
+    tools:context="com.example.sihengli.charadesgame.StandardGameActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/classicBtn"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/green_yellow_150"
+                android:text="@string/classic_charades" />
+
+            <Button
+                android:id="@+id/moviesBtn"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/blue_200"
+                android:text="@string/famous_movies" />
+
+            <Button
+                android:id="@+id/popBtn"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/green_yellow_150"
+                android:text="@string/pop_hits" />
+
+            <Button
+                android:id="@+id/animalsBtn"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/blue_200"
+                android:text="@string/animals" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

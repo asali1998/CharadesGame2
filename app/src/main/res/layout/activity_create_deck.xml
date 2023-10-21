@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/polygon_purple"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    tools:context="com.example.sihengli.charadesgame.CreateDeckActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.25"
+        android:background="@color/purplr_150"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/deckTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/deck_name"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/addCard"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_card" />
+
+        <Button
+            android:id="@+id/submitDeck"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_deck" />
+
+        <Button
+            android:id="@+id/cancelCreate"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cardsLV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.75"
+        android:background="@color/purplr_150"></ListView>
+</LinearLayout>

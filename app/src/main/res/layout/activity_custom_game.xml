@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center"
+    android:foregroundGravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    app:layout_anchorGravity="center_vertical|center"
+    android:background="@drawable/polygon_blue"
+    tools:context="com.example.sihengli.charadesgame.CustomGameActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/customOne"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/dark_blue_200"
+                android:text="@string/create_custom_deck"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/delOne"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/ic_delete"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/customTwo"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/orange_150"
+                android:text="@string/create_custom_deck"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/delTwo"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/ic_delete"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/customThree"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/dark_blue_200"
+                android:text="@string/create_custom_deck" />
+
+            <Button
+                android:id="@+id/delThree"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/ic_delete"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/customFour"
+                style="@android:style/Widget.DeviceDefault.Button.Toggle"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/orange_150"
+                android:text="@string/create_custom_deck"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/delFour"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/ic_delete"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</HorizontalScrollView>
+
